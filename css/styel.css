@@ -1,0 +1,213 @@
+body{
+background: radial-gradient(circle at center, #1a0000 0%, #000000 80%);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background: linear-gradient(to top, #000000, #2b0000);
+display: flex;
+justify-content: center;
+height: 100vh;
+margin: 0;
+overflow: hidden;
+}
+
+#card{    
+background: linear-gradient(to bottom, rgba(120,0,0,0.8), rgba(40,0,0,0.9));    
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+border:solid ;
+border-radius:15px;
+height:270px;
+width:200px;
+text-align:center;
+margin-top:50px;
+position: absolute;
+left: 75%;
+font-size: 14px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+z-index: 2;
+}
+
+#card:hover{
+background: rgba(140,0,0,0.9);
+transform: scale(1.05);
+}
+
+#card2{
+position:absolute ;
+left: 77%;
+top: 10%;
+animation: slide2 forwards;
+animation-duration: 2s ;
+}
+
+#card3{
+border:solid;
+background: linear-gradient(to bottom, rgba(120,0,0,0.8), rgba(40,0,0,0.9));
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+position: absolute;
+font-size: 21px;
+top: 30%;
+height:69%;
+width: 70%;
+border-radius: 15px;
+animation: slide2 forwards;
+animation-duration: 2s;
+padding-left: 1%;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+#card4{
+border:solid;
+background: linear-gradient(to bottom, rgba(120,0,0,0.8), rgba(40,0,0,0.9));
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+position: absolute;
+font-size: 21px;
+top: 30%;
+height:69%;
+width: 70%;
+border-radius: 15px;
+animation: slide2 forwards;
+animation-duration: 2s;
+padding-left: 1%;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+#H1{
+position: absolute;
+text-align: center;
+margin-top: 30px;
+letter-spacing: 2px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+color: #f5d27a;
+text-shadow: 0 0 10px rgba(255, 200, 100, 0.4);
+}
+
+#H2{
+position: absolute;
+text-align: center;
+margin-top: 30px;
+letter-spacing: 2px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+color: #f5d27a;
+text-shadow: 0 0 10px rgba(255, 200, 100, 0.4);
+}
+
+#H3{
+position: absolute;
+text-align: center;
+margin-top: 30px;
+letter-spacing: 2px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+color: #f5d27a;
+text-shadow: 0 0 10px rgba(255, 200, 100, 0.4);
+}
+
+.Intro{
+background: linear-gradient(to bottom, rgba(120,0,0,0.8), rgba(40,0,0,0.9));
+border: solid;
+height: 500px;
+width: 800px;
+position: absolute;
+right: 45%;
+top: 31%;
+border-radius: 15px;
+padding-left: 10%;
+font-size: 35px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+font-style: normal;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+animation: slide;
+animation-duration: 2s;
+}
+
+@keyframes slide{
+from{margin-right: 100%;}
+to{margin-right:0% ;}
+}
+@keyframes slide2{
+from{transform: translatey(100%);}
+to{transform: translatey(1%);}
+}
+
+img{
+border-radius: 15px;
+}
+#bf{
+position: absolute;
+height: 150px;
+width: 250px;
+top: 10%;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+
+#bf2{
+position: absolute;
+left: 88%;
+bottom: 15%;
+height: 260px;
+width: 160px;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+#bf3{
+position: absolute;
+right: 88%;
+bottom: 15%;
+height: 260px;
+width: 160px;
+box-shadow: 0 0 25px rgba(255, 0, 0, 0.3);
+}
+
+p{
+color:white;
+position: relative;
+bottom:7px ;
+}
+
+#link1{   
+position: relative;
+top: 0px;
+display: inline-block;
+text-decoration: none;
+color:inherit;
+border:none;
+outline:none;
+}
+button {
+padding: 10px 20px;
+border: none;
+letter-spacing: 2px;
+font-family: "Cinzel", serif;
+font-optical-sizing: auto;
+font-weight:400px;
+border-radius: 8px;
+background-color: #222;
+text-shadow: 0 0 10px rgba(255, 200, 100, 0.4);
+color:  #f5d27a;
+cursor: pointer;
+position: absolute;
+right: 92%;
+margin-top: 10px;
+transition: transform 0.2s, background-color 0.2s;
+}
+button:hover {
+transform: scale(1.1);
+background-color: #555;
+}
